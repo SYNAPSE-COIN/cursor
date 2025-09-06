@@ -1,0 +1,6 @@
+---
+description: cursor
+alwaysApply: true
+globs: 
+---
+No magic dictionary, always create a dataclasses.
