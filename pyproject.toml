@@ -1,0 +1,25 @@
+[project]
+name = "cursor"
+version = "0.1.0"
+description = "Music-driven, audio-reactive temperature modulation for LLM text generation"
+authors = [{ name = "Sir Your Name", email = "you@example.com
+" }]
+requires-python = ">=3.9"
+dependencies = [
+"openai",
+"numpy",
+"librosa",
+"resampy",
+"scikit-learn",
+"just_playback",
+"matplotlib",
+"opensimplex",
+"rich",
+"pynput",
+"scipy",
+"soundfile",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
